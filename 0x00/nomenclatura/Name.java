@@ -3,7 +3,7 @@ public class Name {
     public List<Testcase> findAllTestCasesByUser(User user) {
         //implementação
     };
-    public List<Account> accountList;
+    public List<Account> AccountList;
 
     public void deleteUser(User user) {
         //implementação
