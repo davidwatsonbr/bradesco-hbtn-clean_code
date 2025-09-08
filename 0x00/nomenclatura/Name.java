@@ -1,4 +1,4 @@
-public class UserAccount {
+public class Name {
     public Date modifiedDate;
     public List<Testcase> findAllTestCasesByUser(User user) {
         //implementação
