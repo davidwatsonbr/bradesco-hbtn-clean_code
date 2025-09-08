@@ -1,6 +1,9 @@
 public class Functions {
-    public void saveCash(Income income, Expense expense){
+    public void saveIncome(Income income){
         inRepo.save(income);
+    }
+
+    public void saveExpense(Expense expense){
         outRepo.save(expense);
     }
 
